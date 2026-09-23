@@ -14,17 +14,18 @@ export default function RootLayout() {
     <SidebarProvider>
       <AppSidebar />
       <SidebarInset>
-        <header className="flex h-14 items-center justify-between gap-2 border-b px-4">
+        <header className="flex border-b-1 border-zinc-900 h-14 items-center justify-between gap-2 border-b px-4">
           <div className="flex items-center gap-2">
             <SidebarTrigger />
-            <Separator orientation="vertical" className="h-4" />
-            <span className="text-sm font-medium">ระบบลงทะเบียนเรียน</span>
+            <Separator orientation="vertical" className="h-4 border-be-1 border-zinc-900" />
+            <span className="text-sm  font-medium">ระบบลงทะเบียนเรียน</span>
           </div>
           <ModeToggle />
         </header>
         <main className="flex-1 p-4">
           <Outlet />
         </main>
+        <footer className="border-t-1 border-zinc-900 p-4 text-center text-xs text-muted-foreground">จัดทำโดย Lalitnapas Pasasuk รหัสนักศึกษา 680610712</footer>
       </SidebarInset>
     </SidebarProvider>
   );

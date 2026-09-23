@@ -10,7 +10,7 @@ export default function HomePage() {
     <div className="flex flex-col items-center gap-4">
 
       <Card>
-        <CardContent className="flex flex-col items-start gap-5 p-8">
+        <CardContent className="flex flex-col gap-5 ">
           <p className="font-bold">
             ระบบลงทะเบียนเรียน CPE - ISNE
           </p>
